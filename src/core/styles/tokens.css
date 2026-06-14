@@ -1,0 +1,34 @@
+/* Bien CSS goc (design token) dung chung toan he thong.
+   Tach rieng khoi Tailwind de cac component thuan CSS cung dung duoc. */
+:root {
+  /* Mau thuong hieu */
+  --color-brand-50: #eff4ff;
+  --color-brand-100: #dbe6fe;
+  --color-brand-500: #2563eb;
+  --color-brand-600: #1d4ed8;
+  --color-brand-700: #1e40af;
+
+  /* Mau chu */
+  --color-ink: #1e293b;
+  --color-ink-muted: #64748b;
+
+  /* Mau nen */
+  --color-surface: #f8fafc;
+  --color-white: #ffffff;
+
+  /* Mau trang thai */
+  --color-success: #16a34a;
+  --color-warning: #f59e0b;
+  --color-danger: #dc2626;
+  --color-info: #0ea5e9;
+
+  /* Bo goc */
+  --radius-card: 16px;
+  --radius-field: 10px;
+
+  /* Do do bong */
+  --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.08);
+
+  /* Khoang cach chuan */
+  --space-page: 24px;
+}

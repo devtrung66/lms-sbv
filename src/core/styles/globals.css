@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thiet lap nen chung cho toan trang */
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Thanh cuon manh, hai hoa voi giao dien co quan nha nuoc */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #94a3b8;
+  }
+}
+
+/* Lop dung chung cho o nhap lieu trong form */
+@layer components {
+  .form-input {
+    @apply w-full rounded-lg border border-slate-200 px-3 py-2 text-sm text-ink outline-none transition-colors focus:border-brand-500;
+  }
+}
