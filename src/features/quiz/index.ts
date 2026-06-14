@@ -9,4 +9,4 @@ export { attemptService } from "./services/attemptService";
 // Thanh phan UI dung lai
 export { ScoreBadge } from "./ui/components/ScoreBadge";
 
-export type { Quiz, Question, QuizResult, UserAnswer } from "./model/types";
+export type { Quiz, Question, QuestionType, QuizResult, UserAnswer } from "./model/types";

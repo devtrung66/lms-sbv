@@ -16,4 +16,5 @@ export {
 export { authActions } from "./state/actions";
 
 // Kieu du lieu cong khai
-export type { AuthUser, Session, LoginCredentials, UserRole } from "./model/types";
+export type { AuthUser, Session, LoginCredentials } from "./model/types";
+export type { UserRole } from "@/app/router/guards";
